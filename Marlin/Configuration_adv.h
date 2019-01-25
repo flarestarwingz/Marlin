@@ -221,8 +221,8 @@
  *
  * Define one or both of these to override the default 0-255 range.
  */
-#define FAN_MIN_PWM 50
-#define FAN_MAX_PWM 128
+//#define FAN_MIN_PWM 50
+//#define FAN_MAX_PWM 128
 
 // @section extruder
 
@@ -1314,13 +1314,13 @@
   #define HOLD_MULTIPLIER    0.5  // Scales down the holding current from run current
   #define INTERPOLATE       true  // Interpolate X/Y/Z_MICROSTEPS to 256
 
-  #define X_CURRENT          400  // rms current in mA. Multiply by 1.41 for peak current.
+  #define X_CURRENT          600  // rms current in mA. Multiply by 1.41 for peak current.
   #define X_MICROSTEPS        16  // 0..256
 
-  #define Y_CURRENT          500
+  #define Y_CURRENT          600
   #define Y_MICROSTEPS        16
 
-  #define Z_CURRENT          400
+  #define Z_CURRENT          600
   #define Z_MICROSTEPS        16
 
   #define X2_CURRENT         800
@@ -1335,7 +1335,7 @@
   #define Z3_CURRENT         800
   #define Z3_MICROSTEPS       16
 
-  #define E0_CURRENT         400
+  #define E0_CURRENT         600
   #define E0_MICROSTEPS       16
 
   #define E1_CURRENT         400
