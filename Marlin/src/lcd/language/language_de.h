@@ -1,6 +1,6 @@
 /**
  * Marlin 3D Printer Firmware
- * Copyright (C) 2016 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
+ * Copyright (C) 2019 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  *
  * Based on Sprinter and grbl.
  * Copyright (C) 2011 Camiel Gubbels / Erik van der Zalm
@@ -45,7 +45,7 @@
 #define MSG_AUTOSTART                       _UxGT("Autostart")
 #define MSG_DISABLE_STEPPERS                _UxGT("Motoren deaktivieren") // M84
 #define MSG_DEBUG_MENU                      _UxGT("Debug-Menü")
-#define MSG_PROGRESS_BAR_TEST               _UxGT("Fortschrittsb.-Test")
+#define MSG_PROGRESS_BAR_TEST               _UxGT("Statusbalken-Test")
 #define MSG_AUTO_HOME                       _UxGT("Home XYZ") // G28
 #define MSG_AUTO_HOME_X                     _UxGT("Home X")
 #define MSG_AUTO_HOME_Y                     _UxGT("Home Y")
@@ -384,7 +384,7 @@
 #define MSG_INFO_MIN_TEMP                   _UxGT("Min Temp")
 #define MSG_INFO_MAX_TEMP                   _UxGT("Max Temp")
 #define MSG_INFO_PSU                        _UxGT("Netzteil")
-#define MSG_DRIVE_STRENGTH                  _UxGT("Treiberstärke")
+#define MSG_DRIVE_STRENGTH                  _UxGT("Motorleistung")
 #define MSG_DAC_PERCENT                     _UxGT("Treiber %")
 #define MSG_DAC_EEPROM_WRITE                _UxGT("Werte speichern")
 #define MSG_FILAMENT_CHANGE_HEADER_PAUSE    _UxGT("DRUCK PAUSIERT")
